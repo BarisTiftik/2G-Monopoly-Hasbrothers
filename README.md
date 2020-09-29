@@ -11,7 +11,7 @@
 Monopoly is a board game that can be played with 2 - 6 people. Players of the game simulate real estate business. The aim of the game is to purchase or invest in real estate properties as much as possible. Players throw dice to move through estates and complete the cycle. When a player lands on a property which is owned by another player he will lose money. If the player lands on a card property he will draw a card and he has to do whatever is written on the card. If the player lands on a property which is not owned by any other player, he can choose to buy this property or pass. If the players have chosen a time limit when the time limit is reached, whoever has the most real estate or cash wins. Bankrupting other players is another way of winning the game. Our version of the monopoly will be about Bilkent estates such as businesses and departments.
 
 ### Includes-Excludes
-* The properties in this game will be related to the Bilkent University.
+* Our version of the monopoly will be about Bilkent estates such as businesses and departments.
 * This game will have sound effects.
 * Dice will have special animations.
 * Lucky cards will have special animations.
