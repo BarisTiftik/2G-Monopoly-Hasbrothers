@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70377532-956b-4933-8ad7-5dc7d4872cf0" name="Default Changelist" comment="Unversioned Files Added">
+    <list default="true" id="70377532-956b-4933-8ad7-5dc7d4872cf0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/2G-Monopoly-Hasbrothers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2G-Monopoly-Hasbrothers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonopolyBilkent/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/MonopolyBilkent/src/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonopolyBilkent/src/Estate.java" beforeDir="false" afterPath="$PROJECT_DIR$/MonopolyBilkent/src/Estate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonopolyBilkent/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/MonopolyBilkent/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonopolyBilkent/src/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/MonopolyBilkent/src/Property.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +34,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MonopolyBilkent/out" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="2G-Monopoly-Hasbrothers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="2G-Monopoly-Hasbrothers" />
+      <option name="PROGRAM_PARAMETERS" value="String[] args" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606945798975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="class added">
+      <created>1606955926954</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606955926954</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Unversioned Files Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unversioned Files Added" />
+    <MESSAGE value="class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="class added" />
   </component>
 </project>
