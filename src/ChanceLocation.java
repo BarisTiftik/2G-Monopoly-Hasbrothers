@@ -1,12 +1,9 @@
 public class ChanceLocation extends CardLocation implements SpecialLocation
 {
-    // constructors
-    public ChanceLocation()
-    {
-    }
-
+    // methods
     public void action(Player player)
     {
         Card currentCard = Board.drawCard(Board.chanceDeck);
+        // Make an action on the player according to card index
     }
 }
