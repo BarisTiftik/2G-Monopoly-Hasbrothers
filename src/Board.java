@@ -55,9 +55,10 @@ public class Board
         return pickedCard;
     }
 
-    public void act()
+    public void act(Player player)
     {
-
+        Location currentLocation = cells[player.getIndex()].getLocation();
+        currentLocation.action(player);
     }
 
 }

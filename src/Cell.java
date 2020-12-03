@@ -23,4 +23,10 @@ public class Cell
     {
         playersHere.remove(player);
     }
+
+    // getters
+    public Location getLocation()
+    {
+        return location;
+    }
 }

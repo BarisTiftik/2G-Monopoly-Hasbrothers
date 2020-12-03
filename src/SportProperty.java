@@ -19,7 +19,10 @@ public class SportProperty extends Property implements Rentable
 
     public void action(Player player)
     {
-        player.loseMoney(calculateRent());
-        owner.gainMoney(calculateRent());
+        if( owner != null )
+        {
+            player.loseMoney(calculateRent());
+            owner.gainMoney(calculateRent());
+        }
     }
 }
