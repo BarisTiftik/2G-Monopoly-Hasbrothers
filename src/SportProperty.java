@@ -4,8 +4,9 @@ public class SportProperty extends Property implements Rentable
     private double[] rents;
 
     // constructors
-    public SportProperty( double[] rents )
+    public SportProperty( double price, double[] rents )
     {
+        super(price);
         this.rents = rents;
     }
 
@@ -19,5 +20,6 @@ public class SportProperty extends Property implements Rentable
     public void action(Player player)
     {
         player.loseMoney(calculateRent());
+        owner.gainMoney(calculateRent());
     }
 }

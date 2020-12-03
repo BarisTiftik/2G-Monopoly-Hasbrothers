@@ -5,6 +5,14 @@ public abstract class Property extends Location
     protected Player owner;
     private boolean isMortgaged;
 
+    // constructors
+    public Property(double price)
+    {
+        this.price = price;
+        owner = null;
+        isMortgaged = false;
+    }
+
     // methods
     public abstract double calculateRent();
 

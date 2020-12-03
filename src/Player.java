@@ -25,4 +25,7 @@ public class Player {
     public int getSportPropertyCount() {
         return 0;
     }
+
+    public void gainMoney(double money) {
+    }
 }

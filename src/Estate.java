@@ -11,8 +11,9 @@ public class Estate extends Property implements Rentable
     private double[] rents;
 
     // constructors
-    public Estate( double[] rents, Color estateColor, int maxColorCount )
+    public Estate( double price, double[] rents, Color estateColor, int maxColorCount )
     {
+        super(price);
         hotel = 0;
         houses = 0;
         this.estateColor = estateColor;
@@ -38,5 +39,6 @@ public class Estate extends Property implements Rentable
     public void action(Player player)
     {
         player.loseMoney(calculateRent());
+        owner.gainMoney(calculateRent());
     }
 }
