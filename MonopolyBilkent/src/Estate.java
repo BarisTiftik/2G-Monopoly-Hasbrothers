@@ -1,7 +1,7 @@
 import javafx.scene.paint.Color;
 import java.util.ArrayList;
 
-public class Estate extends Property
+public class Estate extends Property implements Rentable
 {
     // properties
     private int hotel;
@@ -21,7 +21,7 @@ public class Estate extends Property
     }
 
     // methods
-    public double calculateRent(Player owner)
+    public double calculateRent()
     {
         if( hotel == 0 )
         {
@@ -33,5 +33,10 @@ public class Estate extends Property
             return rents[houses];
         }
         return rents[5];
+    }
+
+    public void action(Player player)
+    {
+        player.loseMoney(calculateRent());
     }
 }

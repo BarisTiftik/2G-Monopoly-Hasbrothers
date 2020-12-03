@@ -18,4 +18,7 @@ public class Player {
 
     public void payTax(double taxAmount) {
     }
+
+    public void loseMoney(double money) {
+    }
 }
