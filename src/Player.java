@@ -28,4 +28,7 @@ public class Player {
 
     public void gainMoney(double money) {
     }
+
+    public void setIndex(int nextIndex) {
+    }
 }

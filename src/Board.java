@@ -39,6 +39,7 @@ public class Board
     {
         cells[player.getIndex()].removePlayer(player);
         cells[nextIndex].addPlayer(player);
+        player.setIndex(nextIndex);
     }
 
     public void shuffleDeck(Card[] deck)
