@@ -31,4 +31,8 @@ public class Player {
 
     public void setIndex(int nextIndex) {
     }
+
+    public double getMoney() {
+        return 0;
+    }
 }

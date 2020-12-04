@@ -1,4 +1,4 @@
-public class SportProperty extends Property implements Rentable
+public class SportProperty extends Property
 {
     // properties
 
@@ -13,14 +13,5 @@ public class SportProperty extends Property implements Rentable
     {
         int sportPropertyCount = getOwner().getSportPropertyCount();
         return getRents()[sportPropertyCount - 1];
-    }
-
-    public void action(Player player)
-    {
-        if( getOwner() != null )
-        {
-            player.loseMoney(calculateRent());
-            getOwner().gainMoney(calculateRent());
-        }
     }
 }
