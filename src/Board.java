@@ -14,24 +14,23 @@ public class Board
     {
         cells = new Cell[40];
         // cells' locations will be initialized later
+        // TODO
 
         chanceCards = new ChanceCard[16];
         // chance cards will be initialized later
+        // TODO
+
         shuffleDeck(chanceCards);
         chanceDeck = new LinkedList<Card>();
-        for (int i = 0; i < 16; i++)
-        {
-            chanceDeck.add(chanceCards[i]);
-        }
+        chanceDeck.addAll(Arrays.asList(chanceCards));
 
         communityChestCards = new CommunityChestCard[16];
         // community chest cards will be initialized later
+        // TODO
+
         shuffleDeck(communityChestCards);
         communityChestDeck = new LinkedList<Card>();
-        for (int i = 0; i < 16; i++)
-        {
-            communityChestDeck.add(communityChestCards[i]);
-        }
+        communityChestDeck.addAll(Arrays.asList(communityChestCards));
     }
 
     // methods

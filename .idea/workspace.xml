@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="düzenlemeler">
-      <change afterPath="$PROJECT_DIR$/src/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine.java" afterDir="false" />
+    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="Game Engine, Dice eklendi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChanceLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChanceLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunityChestLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunityChestLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607039222462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Game Engine, Dice eklendi">
+      <created>1607040452151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607040452151</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +118,7 @@
     <MESSAGE value="3.12.2020 4.59 proje committi" />
     <MESSAGE value="Card lokasyonları düzenlendi, SportProperty eklendi." />
     <MESSAGE value="düzenlemeler" />
-    <option name="LAST_COMMIT_MESSAGE" value="düzenlemeler" />
+    <MESSAGE value="Game Engine, Dice eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game Engine, Dice eklendi" />
   </component>
 </project>
