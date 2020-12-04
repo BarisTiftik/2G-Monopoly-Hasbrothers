@@ -8,17 +8,15 @@ public class Estate extends Property implements Rentable
     private int houses;
     private Color estateColor;
     private int maxColorCount;
-    private double[] rents;
 
     // constructors
     public Estate( double price, double[] rents, Color estateColor, int maxColorCount )
     {
-        super(price);
+        super(price, rents);
         hotel = 0;
         houses = 0;
         this.estateColor = estateColor;
         this.maxColorCount = maxColorCount;
-        this.rents = rents;
     }
 
     // methods
@@ -26,22 +24,22 @@ public class Estate extends Property implements Rentable
     {
         if( hotel == 0 )
         {
-            ArrayList<Color> ownedColors = owner.getOwnedColors();
+            ArrayList<Color> ownedColors = getOwner().getOwnedColors();
 
             if( houses == 0 && ownedColors.contains(estateColor) )
-                return 2.0 * rents[houses];
+                return 2.0 * getRents()[houses];
 
-            return rents[houses];
+            return getRents()[houses];
         }
-        return rents[5];
+        return getRents()[5];
     }
 
     public void action(Player player)
     {
-        if( owner != null )
+        if( getOwner() != null )
         {
             player.loseMoney(calculateRent());
-            owner.gainMoney(calculateRent());
+            getOwner().gainMoney(calculateRent());
         }
     }
 }

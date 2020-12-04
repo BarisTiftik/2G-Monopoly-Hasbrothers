@@ -1,28 +1,26 @@
 public class SportProperty extends Property implements Rentable
 {
     // properties
-    private double[] rents;
 
     // constructors
     public SportProperty( double price, double[] rents )
     {
-        super(price);
-        this.rents = rents;
+        super(price,rents);
     }
 
     // methods
     public double calculateRent()
     {
-        int sportPropertyCount = owner.getSportPropertyCount();
-        return rents[sportPropertyCount - 1];
+        int sportPropertyCount = getOwner().getSportPropertyCount();
+        return getRents()[sportPropertyCount - 1];
     }
 
     public void action(Player player)
     {
-        if( owner != null )
+        if( getOwner() != null )
         {
             player.loseMoney(calculateRent());
-            owner.gainMoney(calculateRent());
+            getOwner().gainMoney(calculateRent());
         }
     }
 }
