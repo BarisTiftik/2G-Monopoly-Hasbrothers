@@ -30,38 +30,41 @@ public class Player {
     private final int BROWN_BLUE_LIMIT = 2;
     private final int REST_LIMIT = 3;
 
-    public int getIndex() {
-        return 0;
+    private boolean isWillingToBuy;
+
+    // constructors
+    // TODO
+
+    // methods
+    public void buyProperty(Property property, double price)
+    {
+        loseMoney(price);
+        inventory.add(property);
     }
 
-    public ArrayList<Color> getOwnedColors() {
-        return null;
+    public boolean isWillingToBuy()
+    {
+        return isWillingToBuy;
     }
 
-    public void goToJail() {
+    public void goToJail()
+    {
+        isJailed = true;
     }
 
-    public void getSalary(double salaryAmount) {
+    public void payTax(double taxAmount)
+    {
+        loseMoney(taxAmount);
     }
 
-    public void payTax(double taxAmount) {
+    public void loseMoney(double loseAmount)
+    {
+        money -= loseAmount;
     }
 
-    public void loseMoney(double money) {
-    }
-
-    public int getSportPropertyCount() {
-        return 0;
-    }
-
-    public void gainMoney(double money) {
-    }
-
-    public void setIndex(int nextIndex) {
-    }
-
-    public double getMoney() {
-        return 0;
+    public void gainMoney(double gainAmount)
+    {
+        money += gainAmount;
     }
 
     public void payRent(Player owner, double currentRent)
@@ -70,14 +73,54 @@ public class Player {
         owner.gainMoney(currentRent);
     }
 
-    public boolean isWillingToBuy()
+    public void mortgageProperty(Property property)
     {
+        if (!property.getMortgaged())
+        {
+            property.mortgage(this);
+            gainMoney(property.calculateMortgageValue());
+        }
+    }
+
+    public boolean isWillingToMortgage()
+    {
+        // TODO
         return false;
     }
 
-    public void buyProperty(Property property, double price)
+    // getters
+    public int getIndex()
     {
-        loseMoney(price);
-        inventory.add(property);
+        return cellIndex;
     }
+
+    public ArrayList<Color> getOwnedColors()
+    {
+        // TODO
+        return null;
+    }
+
+    public void getSalary(double salaryAmount)
+    {
+        money += 200;
+    }
+
+    public int getSportPropertyCount()
+    {
+        // TODO
+        return 0;
+    }
+
+    public double getMoney()
+    {
+        return money;
+    }
+
+    // setters
+    public void setIndex(int nextIndex)
+    {
+        cellIndex = nextIndex;
+    }
+
+
 }

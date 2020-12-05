@@ -12,6 +12,8 @@ public class TaxLocation extends Location implements SpecialLocation
     // methods
     public void action(Player player)
     {
-        player.payTax( taxAmount );
+        if (taxAmount <= player.getMoney())
+            player.payTax( taxAmount );
+        // else trouble TODO
     }
 }

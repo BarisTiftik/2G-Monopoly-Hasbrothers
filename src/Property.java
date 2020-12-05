@@ -32,7 +32,7 @@ public abstract class Property extends Location implements Rentable
             {
                 player.payRent(owner, currentRent);
             }
-            // else trouble
+            // else trouble TODO
         }
         else
         {
@@ -41,6 +41,12 @@ public abstract class Property extends Location implements Rentable
                 player.buyProperty(this, price);
             }
         }
+    }
+
+    public void mortgage(Player player)
+    {
+        if (player.isWillingToMortgage())
+            isMortgaged = true;
     }
 
     // getters
@@ -52,5 +58,10 @@ public abstract class Property extends Location implements Rentable
     public double[] getRents()
     {
         return rents;
+    }
+
+    public boolean getMortgaged()
+    {
+        return isMortgaged;
     }
 }
