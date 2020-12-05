@@ -25,15 +25,21 @@ public abstract class Property extends Location implements Rentable
 
     public void action(Player player)
     {
-        if( getOwner() != null )
+        if( owner != null )
         {
-            double rent = calculateRent();
-            if (rent <= player.getMoney())
+            double currentRent = calculateRent();
+            if (currentRent <= player.getMoney())
             {
-                player.loseMoney(rent);
-                getOwner().gainMoney(rent);
+                player.payRent(owner, currentRent);
             }
             // else trouble
+        }
+        else
+        {
+            if (player.isWillingToBuy() && player.getMoney() >= price)
+            {
+                player.buyProperty(this, price);
+            }
         }
     }
 
