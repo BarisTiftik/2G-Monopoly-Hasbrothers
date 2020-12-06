@@ -36,6 +36,8 @@ public abstract class Property extends Location implements Rentable
             }
             // else trouble TODO
         }
+
+        // !!! TODO
         else
         {
             if (player.isWillingToBuy() && player.getMoney() >= price)
