@@ -41,6 +41,7 @@ public class Player {
     public void buyProperty(Property property, double price)
     {
         loseMoney(price);
+        property.setOwner(this);
         inventory.add(property);
     }
 

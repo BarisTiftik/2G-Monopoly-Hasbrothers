@@ -68,4 +68,10 @@ public abstract class Property extends Location implements Rentable
     {
         return isMortgaged;
     }
+
+    // setters
+    public void setOwner(Player player)
+    {
+        owner = player;
+    }
 }
