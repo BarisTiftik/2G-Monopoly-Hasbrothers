@@ -1,9 +1,7 @@
 import java.awt.image.BufferedImage;
-import com.sun.org.apache.regexp.internal.RE;
-import javafx.scene.image.Image;
-import javafx.scene.paint.Color;
-import java.util.ArrayList;
+
 import java.awt.Color;
+import java.util.ArrayList;
 
 public class Player {
     private String name;
@@ -103,7 +101,7 @@ public class Player {
         ArrayList<Color> ownedColors = new ArrayList<Color>();
 
         if (ownedBrown == BROWN_BLUE_LIMIT)
-            ownedColors.add(Color.BROWN);
+            ownedColors.add(new Color(150, 75,0)); // brown
         if (ownedBlue == BROWN_BLUE_LIMIT)
             ownedColors.add(Color.BLUE);
         if (ownedCyan == REST_LIMIT)

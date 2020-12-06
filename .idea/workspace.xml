@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="Player ve Property düzenlemeler">
+    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="Player düzenleme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/TaxLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/TaxLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Estate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Player.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607184796930</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Player düzenleme">
+      <created>1607275487687</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607275487687</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +163,7 @@
     <MESSAGE value="Dice düzenleme" />
     <MESSAGE value="düzenleme" />
     <MESSAGE value="Player ve Property düzenlemeler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player ve Property düzenlemeler" />
+    <MESSAGE value="Player düzenleme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Player düzenleme" />
   </component>
 </project>
