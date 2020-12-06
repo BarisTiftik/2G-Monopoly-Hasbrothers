@@ -1,4 +1,4 @@
-import javafx.scene.paint.Color;
+import java.awt.Color;
 import java.util.ArrayList;
 
 public class Estate extends Property

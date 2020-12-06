@@ -1,6 +1,6 @@
-import javafx.scene.image.Image;
-import javafx.scene.paint.Color;
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
+import java.awt.Color;
 
 public class Player {
     private String name;
@@ -8,7 +8,7 @@ public class Player {
     private int jumpJailRights;
     private double money;
     private int cellIndex;
-    private Image avatar;
+    private BufferedImage avatar;
     private Color avatarColor;
     private boolean isJailed;
     private int ownedBrown;
