@@ -1,4 +1,7 @@
 import java.awt.image.BufferedImage;
+import com.sun.org.apache.regexp.internal.RE;
+import javafx.scene.image.Image;
+import javafx.scene.paint.Color;
 import java.util.ArrayList;
 import java.awt.Color;
 
@@ -31,6 +34,7 @@ public class Player {
     private final int REST_LIMIT = 3;
 
     private boolean isWillingToBuy;
+    private int sportPropertyCount;
 
     // constructors
     // TODO
@@ -96,8 +100,26 @@ public class Player {
 
     public ArrayList<Color> getOwnedColors()
     {
-        // TODO
-        return null;
+        ArrayList<Color> ownedColors = new ArrayList<Color>();
+
+        if (ownedBrown == BROWN_BLUE_LIMIT)
+            ownedColors.add(Color.BROWN);
+        if (ownedBlue == BROWN_BLUE_LIMIT)
+            ownedColors.add(Color.BLUE);
+        if (ownedCyan == REST_LIMIT)
+            ownedColors.add(Color.CYAN);
+        if (ownedGreen == REST_LIMIT)
+            ownedColors.add(Color.GREEN);
+        if (ownedOrange == REST_LIMIT)
+            ownedColors.add(Color.ORANGE);
+        if (ownedPink == REST_LIMIT)
+            ownedColors.add(Color.PINK);
+        if (ownedRed == REST_LIMIT)
+            ownedColors.add(Color.RED);
+        if (ownedYellow == REST_LIMIT)
+            ownedColors.add(Color.YELLOW);
+
+        return ownedColors;
     }
 
     public void getSalary(double salaryAmount)
@@ -107,8 +129,7 @@ public class Player {
 
     public int getSportPropertyCount()
     {
-        // TODO
-        return 0;
+        return sportPropertyCount;
     }
 
     public double getMoney()
