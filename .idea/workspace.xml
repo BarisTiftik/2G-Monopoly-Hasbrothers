@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="Player düzenleme">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Property.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SportProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SportProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rentable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rentable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpecialLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpecialLocation.java" afterDir="false" />
+    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="düzenleme">
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Rentable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Rentable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SpecialLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SpecialLocation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607295866363</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="düzenleme">
+      <created>1607442444642</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607442444642</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,10 +180,10 @@
     <MESSAGE value="Game Engine, Dice eklendi" />
     <MESSAGE value="Board Düzenleme, TODO eklendi" />
     <MESSAGE value="Dice düzenleme" />
-    <MESSAGE value="düzenleme" />
     <MESSAGE value="Player ve Property düzenlemeler" />
     <MESSAGE value="Color düzenleme" />
     <MESSAGE value="Player düzenleme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player düzenleme" />
+    <MESSAGE value="düzenleme" />
+    <option name="LAST_COMMIT_MESSAGE" value="düzenleme" />
   </component>
 </project>
