@@ -3,7 +3,6 @@ public abstract class Property extends Location implements Rentable
     // properties
     private double price;
     private double[] rents;
-    private double rentPerHouse;
     
     private Player owner;
     private boolean isMortgaged;

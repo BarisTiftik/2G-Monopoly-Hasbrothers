@@ -1,4 +1,4 @@
 public interface Rentable
 {
-    public void action(Player player);
+    void action(Player player);
 }
