@@ -8,7 +8,7 @@ public class LoginScreen extends JFrame {
     private JPasswordField passwordField1;
     private JTextField textField1;
     private JPanel panel1;
-    private JTextPane textPane1;
+    private JLabel pict;
 
     public LoginScreen(){
         add(panel1);
@@ -20,6 +20,12 @@ public class LoginScreen extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 //to do
             }
+
         });
+    }
+
+   private void createUIComponents() {
+        // TODO: place custom component creation code here
+        pict = new JLabel(new ImageIcon("loginscreen.png"));
     }
 }
