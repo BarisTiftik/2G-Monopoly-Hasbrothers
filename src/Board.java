@@ -3,7 +3,7 @@ import java.util.*;
 public class Board
 {
     // properties
-    private Cell[] cells;
+    static Cell[] cells;
     private ChanceCard[] chanceCards;
     private CommunityChestCard[] communityChestCards;
     static Queue<Card> chanceDeck;
@@ -66,7 +66,7 @@ public class Board
     }
 
     // methods
-    public void movePlayer(Player player, int nextIndex)
+    public static void movePlayer(Player player, int nextIndex)
     {
         cells[player.getIndex()].removePlayer(player);
         cells[nextIndex].addPlayer(player);
