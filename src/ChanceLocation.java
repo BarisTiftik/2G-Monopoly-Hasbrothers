@@ -1,4 +1,4 @@
-public class ChanceLocation extends CardLocation implements SpecialLocation
+public class ChanceLocation extends CardLocation
 {
     // methods
     public void action(Player player)

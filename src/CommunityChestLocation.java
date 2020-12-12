@@ -1,4 +1,4 @@
-public class CommunityChestLocation extends CardLocation implements SpecialLocation
+public class CommunityChestLocation extends CardLocation
 {
     // methods
     public void action(Player player)
