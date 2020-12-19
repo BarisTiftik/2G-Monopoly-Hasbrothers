@@ -4,7 +4,7 @@ public class Main {
         //LoginScreen l = new LoginScreen();
         //l.setVisible(true);
 
-        BoardGUI b = new BoardGUI();
+        Login b = new Login();
         b.setVisible(true);
 
     }
