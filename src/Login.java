@@ -1,4 +1,5 @@
 
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -58,7 +59,7 @@ public class Login extends JFrame {
                                 singIn = true;
                                 JOptionPane.showMessageDialog(new Frame(),
                                         "Login successful");
-                                Main mainPage = new Main(data.toString().split("&&&")[0].toString(),data.toString().split("&&&")[1].toString());
+                                MainPage mainPage = new MainPage(data.toString().split("&&&")[0].toString(),data.toString().split("&&&")[1].toString());
                                 dispose();
                                 break;
                             }
