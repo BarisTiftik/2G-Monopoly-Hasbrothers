@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="board gui">
-      <change afterPath="$PROJECT_DIR$/png/board_final.png" afterDir="false" />
+    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="add info box and explanation all of the pages in GUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/final_board.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoardGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreateLoby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateLoby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/CardLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/CardLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/ChanceCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/ChanceCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/ChanceLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/ChanceLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/CommunityChestCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/CommunityChestCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/CommunityChestLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/CommunityChestLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Estate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Estate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/GameEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/JailLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/JailLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Lobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Lobby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/LoginScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Mode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Property.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Rentable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Rentable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SpecialLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SpecialLocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608473863595</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add info box and explanation all of the pages in GUI">
+      <created>1608481791474</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608481791474</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +311,33 @@
     <MESSAGE value="Card.class , ChanceLocation.class , workspace.xml" />
     <MESSAGE value="düzen" />
     <MESSAGE value="board gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="board gui" />
+    <MESSAGE value="add info box and explanation all of the pages in GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="add info box and explanation all of the pages in GUI" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="17" key="GridCell.Tab.0.bottom" timestamp="1608483768980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="17" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608483768980" />
+    <state width="1877" height="17" key="GridCell.Tab.0.center" timestamp="1608483768980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="17" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608483768980" />
+    <state width="1877" height="17" key="GridCell.Tab.0.left" timestamp="1608483768979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="17" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608483768979" />
+    <state width="1877" height="17" key="GridCell.Tab.0.right" timestamp="1608483768980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="17" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608483768980" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608481794644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608481794644" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608483369014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608483369014" />
   </component>
 </project>

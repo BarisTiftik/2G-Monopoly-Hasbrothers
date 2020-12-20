@@ -119,7 +119,7 @@ public class MainPage extends JFrame {
                         "Click the “Create lobby” button to set a lobby for entering the game.\n" +
                                 "Click the “How to play” button to learn to play the game.\n" +
                                 "Click the “Credits” button to learn who contributed to Monopoly Bilkent Edition.\n" +
-                                "Click the “Exit” button to leave the game.\nmert   123");
+                                "Click the “Exit” button to leave the game.\n");
             }
             @Override
             public void mousePressed(MouseEvent e) {
