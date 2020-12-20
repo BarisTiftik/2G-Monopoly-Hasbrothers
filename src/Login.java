@@ -37,7 +37,7 @@ public class Login extends JFrame {
         signUp.setBackground(new Color(255,202,5));
         login.add(signUp);
 
-        JButton singIn = new JButton("Sing In");
+        JButton singIn = new JButton("Sign In");
         singIn.setBounds(640, 620,130, 50);
         singIn.setBackground(new Color(255,202,5));
         login.add(singIn);

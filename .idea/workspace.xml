@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="board gui">
-      <change afterPath="$PROJECT_DIR$/png/final_board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/board_final.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/png/final_board.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BoardGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreateLoby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateLoby.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +87,7 @@
       <workItem from="1608051565703" duration="161000" />
       <workItem from="1608051958407" duration="495000" />
       <workItem from="1608382988532" duration="25536000" />
-      <workItem from="1608456374961" duration="6251000" />
+      <workItem from="1608456374961" duration="11756000" />
     </task>
     <task id="LOCAL-00001" summary="3.12.2020 4.59 proje committi">
       <created>1606960763321</created>
@@ -237,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608400515065</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="board gui">
+      <created>1608473863594</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608473863595</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,10 +1,7 @@
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -16,11 +13,13 @@ public class CreateLoby extends JFrame {
     private String username;
     private String[] profileImages;
     private String profileImage;
+    private String selectedMode;
     public CreateLoby(String username, String profileImage) throws HeadlessException, FileNotFoundException {
         usernames = new String[6];
         profileImages = new String[6];
         this.username = username;
         this.profileImage = profileImage;
+
 
         JPanel login = new JPanel();
         login.setLayout(null);
@@ -30,7 +29,7 @@ public class CreateLoby extends JFrame {
         JButton start = new JButton("Start");
         start.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                BoardGUI startPage = new BoardGUI(usernames, profileImages);
+                BoardGUI startPage = new BoardGUI(usernames, profileImages, selectedMode);
             }
         });
         start.setBounds(440, 660,330, 50);
@@ -362,6 +361,19 @@ public class CreateLoby extends JFrame {
             }
         });
         login.add(search5);
+
+
+        String[] modes = {"Classic", "Athletic Win", "Time Limit: 30", "Time Limit: 90","East Campus Strike" , "Strike of One Side", "Faculty Dominance"};
+        JComboBox selectMode = new JComboBox(modes);
+        selectMode.setBounds(980, 580,200, 30);
+        login.add(selectMode);
+
+        selectMode.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+               selectedMode = e.getItem() + "" ;
+            }
+        });
 
         ImageIcon profileImg1 = new ImageIcon("png/info.png");
         Image pImg1 = profileImg1.getImage();

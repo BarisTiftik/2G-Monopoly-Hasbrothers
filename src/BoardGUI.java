@@ -7,7 +7,7 @@ public class BoardGUI extends JFrame {
     private JPanel users;
 
 
-    public BoardGUI(String[] usernames, String[] profileImages) {
+    public BoardGUI(String[] usernames, String[] profileImages, String selectedMode) {
 
 
         GridBagLayout grid = new GridBagLayout();
@@ -22,7 +22,7 @@ public class BoardGUI extends JFrame {
         Image temp_img = img.getScaledInstance( 200, HEIGHT ,Image.SCALE_SMOOTH);
         boardImg = new ImageIcon( temp_img);
         JLabel left = new JLabel("", boardImg, JLabel.CENTER);*/
-        JLabel left = new JLabel(new ImageIcon("png/final_board.png"));
+        JLabel left = new JLabel(new ImageIcon("png/board_final.png"));
         getContentPane().add(left, new GridBagConstraints(0, 0, 1, 1, 0, 1,
                 GridBagConstraints.BASELINE, GridBagConstraints.BOTH, new Insets(0, 0, 0, 0), 0, 0));
 
@@ -39,7 +39,7 @@ public class BoardGUI extends JFrame {
         //jsp.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
         // <=== add with constraints here
 
-
+        //buttons
         JButton endTurn = new JButton("End Turn");
         endTurn.setBounds(0, 750,130, 50);
         endTurn.setBackground(new Color(210,210,5));
@@ -70,21 +70,35 @@ public class BoardGUI extends JFrame {
                 names[i].setFont(myFont);
                 //userLabels[i] = new JLabel(new ImageIcon(profileImages[i] + ".png"));
                 userLabels[i].setText(usernames[i]);
-                if(i < 3){
+                //if(i < 3){
                     userLabels[i].setBounds((width * i * 90) + (i * 10) , 0, 90, 150);
-                    names[i].setBounds((width * i * 90) + (25), 155,90, 50);
+                    names[i].setBounds((width * i * 90) + (30), 155,90, 50);
 
-                }
-                else{
+                //}
+                /*else{
                     userLabels[i].setBounds((width * (i - 3) * 90) + (i * 10)  , 200, 90, 150);
                     names[i].setBounds((width * i * 90) + (25), 155,90, 50);
-                }
+                }*/
                 right.add(userLabels[i]);
                 right.add(names[i]);
             }
         }
+        //Mode
+        JLabel mode;
+        if(selectedMode == null){
+            mode = new JLabel("Mode: Classic");
+        }
+        else{
+            mode = new JLabel("Mode: " + selectedMode);
+        }
+        mode.setFont(myFont);
+        mode.setBounds(400, 750,250, 50);
+
+        right.add(mode);
+
         add(right, new GridBagConstraints(1, 0, 1, 1, 100, 1,
                 GridBagConstraints.BASELINE, GridBagConstraints.BOTH, new Insets(0, 0, 0, 0), 0, 0));
+
 
         setResizable(false);
         pack();
@@ -96,6 +110,4 @@ public class BoardGUI extends JFrame {
         setSize(getToolkit().getScreenSize());
         setLocationRelativeTo(null);
     }
-
-
 }
