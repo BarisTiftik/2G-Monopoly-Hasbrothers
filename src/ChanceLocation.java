@@ -22,5 +22,17 @@ public class ChanceLocation extends CardLocation
         {
 
         }
+        else if (currentCard.cardIndex == 4) // Move back 3 digits.
+        {
+            Board.movePlayer(player, player.getIndex()-3);
+        }
+        else if (currentCard.cardIndex == 7) // Speeding penalty. Pay 15M.
+        {
+            player.setMoney(player.getMoney()-15);
+        }
+        else if (currentCard.cardIndex == 15) // You rented your house. Take 150M.
+        {
+            player.setMoney(player.getMoney()+150);
+        }
     }
 }
