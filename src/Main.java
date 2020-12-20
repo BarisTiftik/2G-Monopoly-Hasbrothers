@@ -4,8 +4,10 @@ public class Main {
         //LoginScreen l = new LoginScreen();
         //l.setVisible(true);
 
-        Login b = new Login();
-        b.setVisible(true);
+        //BoardGUI b = new BoardGUI();
+        //b.setVisible(true);
+        Login l = new Login();
+        l.setVisible(true);
 
     }
 }
@@ -24,5 +26,4 @@ public class Main {
         });
     }
 }*/
-
 

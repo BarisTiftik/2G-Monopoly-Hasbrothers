@@ -30,7 +30,7 @@ public class CreateLoby extends JFrame {
         JButton start = new JButton("Start");
         start.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                //StartPage startPage = new StartPage(usernames,profileImages);
+                BoardGUI startPage = new BoardGUI(usernames, profileImages);
             }
         });
         start.setBounds(440, 660,330, 50);
