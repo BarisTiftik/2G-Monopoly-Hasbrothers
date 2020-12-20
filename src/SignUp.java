@@ -91,7 +91,7 @@ public class SignUp extends JFrame {
                     pw = new PrintWriter(fw);
                     pw.println(username.getText()+"&&&"+password.getText()+"&&&"+selectProfile.getSelectedItem());
                     JOptionPane.showMessageDialog(new Frame(),
-                            "Kayıt Başarılı");
+                            "Registration Successful!");
                     dispose();
                 } catch (IOException ee) {
                     ee.printStackTrace();
@@ -130,7 +130,9 @@ public class SignUp extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 JOptionPane.showMessageDialog(new Frame(),
-                        "Select profile photo, enter username and set your password.");
+                        "Select your gender and pick an avatar.\n" +
+                                "Enter username and password.\n" +
+                                "Click sign up button.");
             }
             @Override
             public void mousePressed(MouseEvent e) {

@@ -59,7 +59,13 @@ public class MainPage extends JFrame {
         credits.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(new Frame(),
-                        "İsimleri Yazın");
+                        "Credits go to:\n\n" +
+                                "Vural Doğan Akoğlu\n" +
+                                "Mert Laleci\n" +
+                                "Barış Tiftik\n" +
+                                "Mehmet Yaylacı\n" +
+                                "İlhan Koç\n\n" +
+                                "Thank you for playing game!");
             }
         });
         credits.setBounds(440, 630,330, 50);
@@ -110,7 +116,10 @@ public class MainPage extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 JOptionPane.showMessageDialog(new Frame(),
-                        "Main Page Start Game");
+                        "Click the “Create lobby” button to set a lobby for entering the game.\n" +
+                                "Click the “How to play” button to learn to play the game.\n" +
+                                "Click the “Credits” button to learn who contributed to Monopoly Bilkent Edition.\n" +
+                                "Click the “Exit” button to leave the game.\nmert   123");
             }
             @Override
             public void mousePressed(MouseEvent e) {
