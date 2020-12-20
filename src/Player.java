@@ -63,14 +63,14 @@ public class Player {
         this.ownsPink = ownsPink;
         this.ownsCyan = ownsCyan;
         this.isWillingToBuy = isWillingToBuy;
-        this.isWillingToSell = isWillingToSell
+        this.isWillingToSell = isWillingToSell;
         this.sportPropertyCount = sportPropertyCount;
     }
 
     public Player(String name, int money, int cellIndex,
             BufferedImage avatar, Color avatarColor) {
         this.name = name;
-        this.inventory = new ArrayList<Property>;
+        this.inventory = new ArrayList<Property>();
         this.jumpJailRights = 0;
         this.money = money;
         this.cellIndex = cellIndex;
