@@ -181,7 +181,7 @@ public class CreateLoby extends JFrame {
                             {
                                 singIn = true;
                                 JOptionPane.showMessageDialog(new Frame(),
-                                        "Successful");
+                                        "Lobby is created successfully!");
                                 Image pImg = (new ImageIcon("png/ch/"+data.toString().split("&&&")[2].toString()+".png")).getImage();
                                 Image ptemp_img = pImg.getScaledInstance(90,150,Image.SCALE_SMOOTH);
                                 ImageIcon profileImg = new ImageIcon(ptemp_img);
@@ -234,7 +234,7 @@ public class CreateLoby extends JFrame {
                             {
                                 singIn = true;
                                 JOptionPane.showMessageDialog(new Frame(),
-                                        "Successful");
+                                        "Successful--");
                                 Image pImg = (new ImageIcon("png/ch/"+data.toString().split("&&&")[2].toString()+".png")).getImage();
                                 Image ptemp_img = pImg.getScaledInstance(90,150,Image.SCALE_SMOOTH);
                                 ImageIcon profileImg = new ImageIcon(ptemp_img);
@@ -363,7 +363,7 @@ public class CreateLoby extends JFrame {
         login.add(search5);
 
 
-        String[] modes = {"Classic", "Athletic Win", "Time Limit: 30", "Time Limit: 90","East Campus Strike" , "Strike of One Side", "Faculty Dominance"};
+        String[] modes = {"Classic", "Time Limit: 30", "Time Limit: 90", "Athletic Win", "East Campus Strike" , "Strike of One Side", "Rektor of Bilkent"};
         JComboBox selectMode = new JComboBox(modes);
         selectMode.setBounds(980, 580,200, 30);
         login.add(selectMode);
@@ -385,7 +385,18 @@ public class CreateLoby extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 JOptionPane.showMessageDialog(new Frame(),
-                        "Main Page Start Game");
+                        "The first player in the game is the lobby creator and he can add opponent players \n" +
+                                "by typing their usernames(case sensitive) in the search bar. \n" +
+                                "Lobby Creator(First player) should select the game mode by clicking the ComboBox. \n" +
+                                "Game modes are listed as follows:\n" +
+                                "* Classic: To finish the game, players must bankrupt until there is only one player left.\n" +
+                                "* Time30: The game will be over in 30 minutes and the player with the most assets will win.\n" +
+                                "* Time90: The game will be over in 90 minutes.\n" +
+                                "* Athletic Win: If a player \"Main Sport center\", \"Dormitories Sport Center\", \n" +
+                                "\"East Campus Sport Center\" and \"Bilkent Stadium\", he will win the game.\n" +
+                                "* East Campus Strike: If a player buys all properties belonging to “East Campus”, win the game.\n" +
+                                "* Strike of one side: If a player buys all properties belonging to one of the sides on the game board, win the game.\n" +
+                                "* Rector of Bilkent: If a player has all of the faculties on the board, win the game.\n");
             }
             @Override
             public void mousePressed(MouseEvent e) {
