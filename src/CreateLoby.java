@@ -128,7 +128,7 @@ public class CreateLoby extends JFrame {
                             {
                                 singIn = true;
                                 JOptionPane.showMessageDialog(new Frame(),
-                                        "Successful");
+                                        "Player added!");
                                 Image pImg = (new ImageIcon("png/ch/"+data.toString().split("&&&")[2].toString()+".png")).getImage();
                                 Image ptemp_img = pImg.getScaledInstance(90,150,Image.SCALE_SMOOTH);
                                 ImageIcon profileImg = new ImageIcon(ptemp_img);
@@ -141,7 +141,7 @@ public class CreateLoby extends JFrame {
                     }
                     if(!singIn)
                         JOptionPane.showMessageDialog(new Frame(),
-                                "Not Exist User");
+                                "User does not exist!");
                 } catch (FileNotFoundException ee) {
                     System.out.println("An error occurred.");
                     ee.printStackTrace();
@@ -181,7 +181,7 @@ public class CreateLoby extends JFrame {
                             {
                                 singIn = true;
                                 JOptionPane.showMessageDialog(new Frame(),
-                                        "Lobby is created successfully!");
+                                        "Player added!");
                                 Image pImg = (new ImageIcon("png/ch/"+data.toString().split("&&&")[2].toString()+".png")).getImage();
                                 Image ptemp_img = pImg.getScaledInstance(90,150,Image.SCALE_SMOOTH);
                                 ImageIcon profileImg = new ImageIcon(ptemp_img);
@@ -194,7 +194,7 @@ public class CreateLoby extends JFrame {
                     }
                     if(!singIn)
                         JOptionPane.showMessageDialog(new Frame(),
-                                "Not Exist User");
+                                "User does not exist!");
                 } catch (FileNotFoundException ee) {
                     System.out.println("An error occurred.");
                     ee.printStackTrace();
@@ -234,7 +234,7 @@ public class CreateLoby extends JFrame {
                             {
                                 singIn = true;
                                 JOptionPane.showMessageDialog(new Frame(),
-                                        "Successful--");
+                                        "Player added!");
                                 Image pImg = (new ImageIcon("png/ch/"+data.toString().split("&&&")[2].toString()+".png")).getImage();
                                 Image ptemp_img = pImg.getScaledInstance(90,150,Image.SCALE_SMOOTH);
                                 ImageIcon profileImg = new ImageIcon(ptemp_img);
@@ -247,7 +247,7 @@ public class CreateLoby extends JFrame {
                     }
                     if(!singIn)
                         JOptionPane.showMessageDialog(new Frame(),
-                                "Not Exist User");
+                                "User does not exist!");
                 } catch (FileNotFoundException ee) {
                     System.out.println("An error occurred.");
                     ee.printStackTrace();
@@ -287,7 +287,7 @@ public class CreateLoby extends JFrame {
                             {
                                 singIn = true;
                                 JOptionPane.showMessageDialog(new Frame(),
-                                        "Successful");
+                                        "Player added!");
                                 Image pImg = (new ImageIcon("png/ch/"+data.toString().split("&&&")[2].toString()+".png")).getImage();
                                 Image ptemp_img = pImg.getScaledInstance(90,150,Image.SCALE_SMOOTH);
                                 ImageIcon profileImg = new ImageIcon(ptemp_img);
@@ -300,7 +300,7 @@ public class CreateLoby extends JFrame {
                     }
                     if(!singIn)
                         JOptionPane.showMessageDialog(new Frame(),
-                                "Not Exist User");
+                                "User does not exist!");
                 } catch (FileNotFoundException ee) {
                     System.out.println("An error occurred.");
                     ee.printStackTrace();
@@ -340,7 +340,7 @@ public class CreateLoby extends JFrame {
                             {
                                 singIn = true;
                                 JOptionPane.showMessageDialog(new Frame(),
-                                        "Successful");
+                                        "Player added!");
                                 Image pImg = (new ImageIcon("png/ch/"+data.toString().split("&&&")[2].toString()+".png")).getImage();
                                 Image ptemp_img = pImg.getScaledInstance(90,150,Image.SCALE_SMOOTH);
                                 ImageIcon profileImg = new ImageIcon(ptemp_img);
@@ -353,7 +353,7 @@ public class CreateLoby extends JFrame {
                     }
                     if(!singIn)
                         JOptionPane.showMessageDialog(new Frame(),
-                                "Not Exist User");
+                                "User does not exist!");
                 } catch (FileNotFoundException ee) {
                     System.out.println("An error occurred.");
                     ee.printStackTrace();
