@@ -1,7 +1,7 @@
 public class StartLocation extends Location implements SpecialLocation
 {
     // properties
-    private double salaryAmount;
+    private int salaryAmount;
 
     // constructors
     public StartLocation()
