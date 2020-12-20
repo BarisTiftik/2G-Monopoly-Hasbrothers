@@ -1,4 +1,3 @@
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -18,7 +17,7 @@ public class MainPage extends JFrame {
         login.setBackground(new Color(0,0,0,60));
         login.setBounds(0,0,1200,800);
 
-        JButton loby = new JButton("Create Loby");
+        JButton loby = new JButton("Create Lobby");
         loby.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -36,7 +35,20 @@ public class MainPage extends JFrame {
         how.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(new Frame(),
-                        "Nasıl Oynanır?");
+                        "To start the game, you should first set up a lobby. After clicking Create Lobby, select the game mode you want and create your lobby.\n " +
+                                "After adding the usernames(case sensitive) of your friends who are registered in the system and you want to play, press the start game button.\n" +
+                                "The board of the game will be on the left and the game interface with the users will be on the right. Bank accounts and avatars belonging to everyone are available on the right side of the game. \n" +
+                                "The player whose turn starts rolls the dice and his/her avatar moves automatically according to the dice. Then several cases can happen as following\n" +
+                                "* If you come to an unowned property, you can buy it by paying it’s price.\n" +
+                                "*If you come to an owned property, you have to pay the rent. \n" +
+                                "*If you own all the properties of the same color, you can build houses and hotels on these properties, this will increase their rent prices. \n" +
+                                "*If you come to the cell of the chance and community chest cards, click on the decks according to the cell you have arrived at and do actions on the card.\n" +
+                                "*If you come to the \"Go to Jail\" cell, the game automatically advances your avatar to the jail and you do not get the salary to cross the starting point.\n" +
+                                "*If you are in jail when the turn starts, first you roll the dice, if your dice is double, you can go out of jail, or if you have a jail free card you can use it\n" +
+                                "otherwise if you want to exit from jail  you have to pay the price. After 3 turns in jail you can exit for free.\n" +
+                                "*If you come to “Mayfest” You need to pick one of your properties to celebrate the Mayfest and double its salary.\n" +
+                                "*Every pass from the starting point you take salary.\n" +
+                                "*End your turn by clicking the end turn button on the below of the left side.\n");
             }
         });
         how.setBounds(440, 570,330, 50);

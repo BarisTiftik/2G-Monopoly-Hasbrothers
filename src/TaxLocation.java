@@ -1,10 +1,10 @@
 public class TaxLocation extends Location implements SpecialLocation
 {
     // properties
-    private double taxAmount;
+    private int taxAmount;
 
     // constructors
-    public TaxLocation( double taxAmount )
+    public TaxLocation( int taxAmount )
     {
         this.taxAmount = taxAmount;
     }
