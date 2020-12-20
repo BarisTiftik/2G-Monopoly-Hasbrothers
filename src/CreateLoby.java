@@ -15,6 +15,7 @@ public class CreateLoby extends JFrame {
     private String username;
     private String[] profileImages;
     private String profileImage;
+    
     public CreateLoby(String username, String profileImage) throws HeadlessException, FileNotFoundException {
         usernames = new String[6];
         profileImages = new String[6];
@@ -398,4 +399,15 @@ public class CreateLoby extends JFrame {
         this.setSize(1220,820);
         this.setVisible(true);
     }
+
+    private Mode setMode(boolean bargain, boolean sounds, boolean animations, boolean timeLimit, int timeLimitValue,
+            boolean newCards, boolean borrowMoney, boolean avatarFace){
+        return new Mode( bargain, sounds, animations, timeLimit, timeLimitValue, newCards, borrowMoney, avatarFace);
+    }
+
+    private void gameUI(Mode gameMode){
+        // change the variables according to the game mode
+        // then soutput the gui
+    }
+
 }
