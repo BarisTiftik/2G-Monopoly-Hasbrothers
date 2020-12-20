@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="board gui">
-      <change afterPath="$PROJECT_DIR$/png/board_final.png" afterDir="false" />
+    <list default="true" id="6e307092-b948-4a56-9679-8f4e17a7061a" name="Default Changelist" comment="board gui final">
+      <change afterPath="$PROJECT_DIR$/png/board/Athletic Win.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/board/Classic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/board/East Campus Strike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/board/Rector of Bilkent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/board/Time Limit 30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/board/Time Limit 90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/board/gameflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/modes/Athletic Win.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/modes/Classic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/modes/East Campus Strike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/modes/Rector of Bilkent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/modes/Time Limit 30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png/modes/Time Limit 90.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/final_board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/BoardGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/Mode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SignUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SportProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/SportProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/StartLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2G-Monopoly-Hasbrothers/StartLocation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BoardGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreateLoby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateLoby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +71,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="2G-Monopoly-Hasbrothers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -59,13 +87,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="2G-Monopoly-Hasbrothers" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,7 +108,7 @@
       <workItem from="1608051565703" duration="161000" />
       <workItem from="1608051958407" duration="495000" />
       <workItem from="1608382988532" duration="25536000" />
-      <workItem from="1608456374961" duration="11756000" />
+      <workItem from="1608456374961" duration="23031000" />
     </task>
     <task id="LOCAL-00001" summary="3.12.2020 4.59 proje committi">
       <created>1606960763321</created>
@@ -236,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608473863595</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="board gui final">
+      <created>1608479418972</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608479418972</updated>
+    </task>
+    <task id="LOCAL-00023" summary="board gui final">
+      <created>1608479776634</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608479776634</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +305,7 @@
     <MESSAGE value="Card.class , ChanceLocation.class , workspace.xml" />
     <MESSAGE value="düzen" />
     <MESSAGE value="board gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="board gui" />
+    <MESSAGE value="board gui final" />
+    <option name="LAST_COMMIT_MESSAGE" value="board gui final" />
   </component>
 </project>

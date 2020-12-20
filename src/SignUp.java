@@ -120,6 +120,7 @@ public class SignUp extends JFrame {
             }
         });
 
+
         ImageIcon profileImg1 = new ImageIcon("png/info.png");
         Image pImg1 = profileImg1.getImage();
         Image ptemp_img1 = pImg1.getScaledInstance(30,30,Image.SCALE_SMOOTH);

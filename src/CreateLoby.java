@@ -363,17 +363,29 @@ public class CreateLoby extends JFrame {
         login.add(search5);
 
 
-        String[] modes = {"Classic", "Time Limit: 30", "Time Limit: 90", "Athletic Win", "East Campus Strike" , "Strike of One Side", "Rektor of Bilkent"};
+        String[] modes = {"Classic", "Time Limit 30", "Time Limit 90", "Athletic Win", "East Campus Strike" , "Strike of One Side", "Rector of Bilkent"};
         JComboBox selectMode = new JComboBox(modes);
         selectMode.setBounds(980, 580,200, 30);
         login.add(selectMode);
+        JLabel modeLabel = new JLabel();
+        modeLabel.setBounds(980, 375,200, 200);
 
+        selectedMode = "Classic";
+        Image modeImg = (new ImageIcon("png/modes/Classic.png")).getImage();
+        Image modeImg_temp = modeImg.getScaledInstance(200,200,Image.SCALE_SMOOTH);
+        ImageIcon mImg = new ImageIcon(modeImg_temp);
+        modeLabel.setIcon(mImg);
         selectMode.addItemListener(new ItemListener() {
             @Override
             public void itemStateChanged(ItemEvent e) {
-               selectedMode = e.getItem() + "" ;
+                    selectedMode = e.getItem() + "" ;
+                    Image pImg = (new ImageIcon("png/modes/"+e.getItem()+".png")).getImage();
+                    Image ptemp_img = pImg.getScaledInstance(200,200,Image.SCALE_SMOOTH);
+                    ImageIcon profileImg = new ImageIcon(ptemp_img);
+                    modeLabel.setIcon(profileImg);
             }
         });
+        login.add(modeLabel);
 
         ImageIcon profileImg1 = new ImageIcon("png/info.png");
         Image pImg1 = profileImg1.getImage();

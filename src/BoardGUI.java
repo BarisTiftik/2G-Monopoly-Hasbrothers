@@ -42,13 +42,19 @@ public class BoardGUI extends JFrame {
         //buttons
         JButton endTurn = new JButton("End Turn");
         endTurn.setBounds(0, 750,130, 50);
-        endTurn.setBackground(new Color(210,210,5));
+        endTurn.setBackground(new Color(255, 3, 3, 255));
         right.add(endTurn);
+
+        JButton rollDice = new JButton("Roll Dice");
+        rollDice.setBounds(0, 700,130, 50);
+        rollDice.setBackground(new Color(210,210,5));
+        right.add(rollDice);
 
         //user pictures.
         //users = new JPanel()
         JLabel[] userLabels = new JLabel[6];
         JLabel[] names = new JLabel[6];
+        JLabel[] accounts = new JLabel[6];
         Font myFont = new Font("Ariel", Font.BOLD, 20);
         int width = 1;
         ImageIcon profileImg;
@@ -57,8 +63,8 @@ public class BoardGUI extends JFrame {
         for (int i = 0; i < 6; i++)
         {
             if(usernames[i] != null){
-                System.out.println(usernames[i]);
-                System.out.println(profileImages[i]);
+                //System.out.println(usernames[i]);
+                //System.out.println(profileImages[i]);
                 profileImg = new ImageIcon("png/ch/" + profileImages[i] + ".png");
                 pImg = profileImg.getImage();
                 ptemp_img = pImg.getScaledInstance(90,150,Image.SCALE_SMOOTH);
@@ -69,22 +75,37 @@ public class BoardGUI extends JFrame {
                 names[i].setText(usernames[i]);
                 names[i].setFont(myFont);
                 //userLabels[i] = new JLabel(new ImageIcon(profileImages[i] + ".png"));
+                //user avatars and names
                 userLabels[i].setText(usernames[i]);
-                //if(i < 3){
-                    userLabels[i].setBounds((width * i * 90) + (i * 10) , 0, 90, 150);
-                    names[i].setBounds((width * i * 90) + (30), 155,90, 50);
+                userLabels[i].setBounds((width * i * 90) + (i * 10) , 0, 90, 150);
+                names[i].setBounds((width * i * 90) + (30), 155,90, 50);
 
-                //}
-                /*else{
-                    userLabels[i].setBounds((width * (i - 3) * 90) + (i * 10)  , 200, 90, 150);
-                    names[i].setBounds((width * i * 90) + (25), 155,90, 50);
-                }*/
+                //bank accounts
+                accounts[i] = new JLabel("1500$");
+                accounts[i].setBounds((width * i * 90) + (30), 205,90, 50);
+                accounts[i].setFont(myFont);
+
                 right.add(userLabels[i]);
                 right.add(names[i]);
+                right.add(accounts[i]);
             }
         }
+        //game flow label representation
+        JLabel gameFlow = new JLabel();
+        Image gameFlowImg = (new ImageIcon("png/board/gameflow.png")).getImage();
+        Image temp = gameFlowImg.getScaledInstance(454,205,Image.SCALE_SMOOTH);
+        ImageIcon gfImg = new ImageIcon(temp);
+        gameFlow.setIcon(gfImg);
+        gameFlow.setBounds(0, 250,454, 205 );
+        right.add(gameFlow);
+
         //Mode
         JLabel mode;
+        JLabel modePic = new JLabel();
+        Image modeImg = (new ImageIcon("png/board/"+ selectedMode +".png")).getImage();
+        Image mtemp_img = modeImg.getScaledInstance(200,200,Image.SCALE_SMOOTH);
+        ImageIcon mImg = new ImageIcon(mtemp_img);
+        modePic.setIcon(mImg);
         if(selectedMode == null){
             mode = new JLabel("Mode: Classic");
         }
@@ -93,7 +114,8 @@ public class BoardGUI extends JFrame {
         }
         mode.setFont(myFont);
         mode.setBounds(400, 750,250, 50);
-
+        modePic.setBounds(400, 500,200, 200);
+        right.add(modePic);
         right.add(mode);
 
         add(right, new GridBagConstraints(1, 0, 1, 1, 100, 1,
